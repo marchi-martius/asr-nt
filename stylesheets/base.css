@@ -1,0 +1,106 @@
+html, body {
+  width: 100%;
+  min-height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', lucida, sans;
+  font-size: 14px;
+  color: #FFF;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  clear: both;
+}
+
+h1, h2 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 48px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.l-wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.l-header {
+  float: right;
+}
+
+.l-footer {
+  height: 60px;
+  vertical-align: middle;
+}
+
+.phone-number {
+  font-weight: 600;
+}
+
+.promo-text {
+  width: 480px;
+  min-height: 380px;
+  padding-top: 160px;
+  padding-left: 480px;
+  background: url('../images/holy-bible-closed.png') left top no-repeat;
+}
+
+.gallery {
+  width: 480px;
+  min-height: 410px;
+  margin-bottom: 160px;
+  padding-left: 480px;
+  background: url('../images/holy-bible-opened.png') left top no-repeat;
+}
+
+.image-preview {
+  text-decoration: none;
+}
+
+.image-preview img {
+  display: block;
+  float: left;
+  margin: 0 25px 25px 0;
+  border: 1px solid #000;
+}
+
+.hero {
+  width: 100%;
+}
+
+.contacts {
+  float: right;
+  margin: 0;
+  height: 60px;
+  font-size: 10px;
+}
+.contacts > li {
+  float: left;
+  margin-right: 25px;
+  padding: 0 0 0 5px;
+  color: #e94e1b;
+  line-height: 58px;
+}
+.contacts > li:first-child { list-style: none; }
+.contacts > li > span { color: white; }
+
+.contacts-logo {
+  display: block;
+  height: 58px;
+}
+
+a { color: white; }
+a:hover { color: #e94e1b; }
