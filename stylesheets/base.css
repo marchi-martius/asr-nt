@@ -8,14 +8,11 @@ html {
 }
 
 body {
+  position: relative;
+  min-width: 960px;
   font-family: 'Open Sans', lucida, sans;
   font-size: 14px;
   color: #FFF;
-  background-image: url('../images/background.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
-  background-repeat: no-repeat;
   clear: both;
 }
 
@@ -32,6 +29,16 @@ h2 {
   font-size: 18px;
 }
 
+.l-background {
+  position: absolute;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: url('../images/background.jpg') center center no-repeat;
+  background-size: cover;
+  z-index: -9999;
+}
+
 .l-wrapper {
   width: 960px;
   margin: 0 auto;
@@ -39,6 +46,7 @@ h2 {
 
 .l-header {
   float: right;
+  line-height: 60px;
 }
 
 .l-footer {
@@ -52,8 +60,8 @@ h2 {
 
 .promo-text {
   width: 480px;
-  min-height: 380px;
-  padding-top: 160px;
+  min-height: 400px;
+  padding-top: 140px;
   padding-left: 480px;
   background: url('../images/holy-bible-closed.png') left top no-repeat;
 }
@@ -72,7 +80,7 @@ h2 {
 .image-preview img {
   display: block;
   float: left;
-  margin: 0 25px 25px 0;
+  margin: 25px 25px 0 0;
   border: 1px solid #000;
 }
 
