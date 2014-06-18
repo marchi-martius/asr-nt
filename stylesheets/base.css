@@ -29,6 +29,9 @@ h2 {
   font-size: 18px;
 }
 
+a { color: white; }
+a:hover { color: #e94e1b; }
+
 .l-background {
   position: absolute;
   top: 0;
@@ -98,6 +101,8 @@ h2 {
   background-color: #e94e1b;
 }
 
+.order-btn:hover { color: #CCC; }
+
 .hero {
   margin-top: 160px;
   width: 100%;
@@ -123,6 +128,3 @@ h2 {
   display: block;
   height: 58px;
 }
-
-a { color: white; }
-a:hover { color: #e94e1b; }
