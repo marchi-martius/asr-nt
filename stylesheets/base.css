@@ -68,6 +68,9 @@ a:hover { color: #e94e1b; }
   padding-left: 480px;
   background: url('../images/holy-bible-closed.png') left top no-repeat;
 }
+.promo-text > h1 { margin-left: -5px; }
+.promo-text > h2 { margin-top: 2em; }
+
 
 .gallery {
   width: 480px;
@@ -94,7 +97,7 @@ a:hover { color: #e94e1b; }
 .order-btn {
   display: inline-block;
   margin: 0 auto;
-  padding: 15px;
+  padding: 15px 30px;
   width: auto;
   font-size: 16px;
   text-decoration: none;
